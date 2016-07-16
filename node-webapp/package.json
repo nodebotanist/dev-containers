@@ -1,0 +1,29 @@
+{
+  "name": "node-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "start": "./scripts/run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stop": "./scripts/stop.sh",
+    "cleanup": "./scripts/cleanup.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "lodash": "^4.13.1",
+    "passport": "^0.3.2",
+    "passport-oauth": "^1.0.0",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}

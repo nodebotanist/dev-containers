@@ -1,0 +1,1 @@
+docker build --tag nodebotanist-node-webapp:0.1 .
